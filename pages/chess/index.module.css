@@ -30,9 +30,7 @@
 }
 
 .grid {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	display: grid;
 	flex-wrap: wrap;
 	max-width: 1250px;
 	gap: 5px;
@@ -43,7 +41,6 @@
 
 .square1,
 .square2 {
-	width: 150px;
 	aspect-ratio: 1;
 	text-align: center;
 	display: flex;
@@ -55,10 +52,8 @@
 
 .square1 {
 	background-color: white;
-	/* color: black; */
 }
 
 .square2 {
 	background-color: black;
-	/* color: white; */
 }
